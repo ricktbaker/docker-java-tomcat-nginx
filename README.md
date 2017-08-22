@@ -31,7 +31,11 @@ http://localhost:5000/sample/
 
 Put your actual war file into the tomcat/webapps directory and then edit the tomcat/Dockerfile, changing the sample.war file to your new war file:
 
-`COPY webapps/dockersetup.war /usr/local/tomcat/webapps/`
+`COPY webapps/sample.war /usr/local/tomcat/webapps/`
+
+change to 
+
+`COPY webapps/newwarfile.war /usr/local/tomcat/webapps/`
 
 ## Deploying a war file through the manager
 
